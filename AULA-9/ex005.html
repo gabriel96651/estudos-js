@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(138, 225, 225);
+            color: white;
+            font: normal 20pt arial;
+        }
+    </style>
+    <title>primeiros passos com DOM</title>
+</head>
+<body>
+    <h1>iniciando os estudos DOM</h1>
+    <p>aqui vai o RESULTADO  </p>
+    <p>aprendendo a usar o <strong>DOM</strong></p>
+    <div id="msg">clique em mim</div> 
+    <div class="R">aqui esta sua a resposta</div>
+
+            <!--aqui vem o java script-->
+    <script>
+                        //variaveis 
+
+                //selecionando pelo nome da TAG
+        var p1 = window.document.getElementsByTagName('p') [1]
+        var st = window.document.getElementsByTagName('strong') [0]
+        var body = window.document.body
+
+                //selecionando por ID
+        var d = window.document.querySelector('div.R')
+
+                //selecionando por name
+                var R = window.document.getElementsByName('R') [0]
+
+                        //scripts
+
+        p1.style.color = 'purple' //VAR p1
+
+        st.style.color = 'yellow' //VAR ST
+
+        body.style.background = 'lightgreen' //BODY
+
+        d.style.background = 'black' //VAR d
+        d.innerText = 'estou aguardando...' //VAR d
+
+        R.innerText = 'guardou' //VAR R
+        R.style.color = 'black'
+    </script>
+</body>
+</html>
