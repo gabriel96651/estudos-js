@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imigracao</title>
+</head>
+<body>
+    <h1>Sistema de imigracao</h1>
+    de onde voce e? <input type="text" name="txtt" id="txtt">
+    <input type="button" name="verificar" value="text" onclick="verificar()">
+    <div id="res" >
+
+    </div>
+    <script>
+        function verificar() {
+            var txt = window.document.querySelector('input#txtt')
+            var res = window.document.querySelector('div#res')
+            var ver = Text(txt.Text)
+            res.innerHTML = `voce e Brasileiro`
+        }
+    </script>
+</body>
+</html>
