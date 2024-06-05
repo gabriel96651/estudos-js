@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(137, 43, 226, 0.635);
+    font: 12pt;
+}
+
+header {
+    background-color: lightpink;
+    
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+section {
+    background: white;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+}
